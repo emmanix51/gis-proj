@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+#onebunawan {
+  position: absolute;
+  left: 50%;
+  top: 8%;
+}
+
+#bunawan {
+  scale: calc(1.5);
+}
+
+#twodalipuga {
+  position: absolute;
+  left: 44.5%;
+  top: 9%;
+}
+
+#dalipuga {
+  scale: calc(1.2);
+}
+
+#threehindang {
+  position: absolute;
+  left: 59%;
+  top: 9%;
+}
+
+#hindang {
+  scale: calc(1.4);
+}
+#fourmainit {
+  position: absolute;
+  left: 63%;
+  top: 10%;
+}
+#mainit {
+  scale: 1.6;
+}
+
+#fivekiwalan {
+  position: absolute;
+  top: 23%;
+  left: 48%;
+}
+
+#sixkabacsanan {
+  position: absolute;
+  top: 24%;
+  left: 54.5%;
+}
+#kabacsanan {
+  scale: calc(0.9);
+}
+
+path {
+  fill: #1da1f2;
+  stroke: blue;
+}
+path:hover {
+  fill: purple;
+  stroke: red;
+  stroke-width: 3px;
+  transition: fill 0.4s;
+  cursor: pointer;
+}
+img {
+  margin: 0 auto;
+}
